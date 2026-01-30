@@ -1,12 +1,447 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+J
+-9-69*B596      9               )
+                                 )
+B       *                         )
+B=B9BK��        PlayBackgroundColor3BackgroundColor3
+                                                    Color3     LernewTweenInfo
+              Create��̙������̙�����-9-69*B5-=B9BK��       PlayBackgroundColor3BackgroundColornewTweenInfo
+                                       Create��̙�����
+                                                    .69'-B69*) )
+(B====6 9
+=
+=)
+B69)
+B=99B99B2�L��MouseLeave
+TextSizeTextColor3GothamBoldctMoEnumnterFont    TextBackgroundCoPosition
+Position��̙�����9699X�9699X�19.-9.K����
+TouchMouseButton1       EnumUserInputType�
 
-]]--
+                                          /-X+�9699X�9699X�)+U�X�9-!-69-9-99    9
+-       9
+        9                       9
 
-local v0=game:GetService("Players").LocalPlayer;local v1=game:GetService("UserInputService");local v2=game:GetService("TweenService");local v3="CHIPSHUBV1";local v4="https://chat.whatsapp.com/C9lws7uXig62tX1xcVnhfS?mode=gi_t";local v5="https://raw.githubusercontent.com/Cipshub1/Script-ecek-ecek-/refs/heads/main/PANTEK.lua";local v6=Instance.new("ScreenGui",v0.PlayerGui);v6.Name="CipsRebornAuth";v6.ResetOnSpawn=false;local v9=Instance.new("Frame",v6);v9.Size=UDim2.fromOffset(579 -229 ,220);v9.Position=UDim2.new(0.5, -(172 + 3),0.5 + 0 , -110);v9.BackgroundColor3=Color3.fromRGB(972 -(892 + 65) ,15,47 -27 );v9.BorderSizePixel=0 -0 ;v9.ClipsDescendants=true;Instance.new("UICorner",v9).CornerRadius=UDim.new(0 -0 ,365 -(87 + 263) );local v16=Instance.new("UIStroke",v9);v16.Thickness=182 -(67 + 113) ;v16.Color=Color3.fromRGB(0,225,255);v16.ApplyStrokeMode=Enum.ApplyStrokeMode.Border;local v21=Instance.new("ImageLabel",v9);v21.Size=UDim2.fromScale(1.5 + 0 ,2.5 -1 );v21.Position=UDim2.fromScale( -(0.25 + 0), -0.25);v21.BackgroundTransparency=3 -2 ;v21.Image="rbxassetid://13411135402";v21.ImageColor3=Color3.fromRGB(0,1177 -(802 + 150) ,255);v21.ImageTransparency=0.8 -0 ;v21.ZIndex=0 -0 ;local v29=Instance.new("TextLabel",v9);v29.Size=UDim2.new(1,0 + 0 ,0,1057 -(915 + 82) );v29.Text="CIPSHUB | ACCESS";v29.Font=Enum.Font.GothamBlack;v29.TextColor3=Color3.new(1,2 -1 ,1 + 0 );v29.TextSize=28 -6 ;v29.BackgroundTransparency=1;local v37=Instance.new("TextLabel",v9);v37.Size=UDim2.new(1188 -(1069 + 118) ,0 -0 ,0 -0 ,4 + 16 );v37.Position=UDim2.fromOffset(0 -0 ,45);v37.Text="Please enter your premium key below";v37.Font=Enum.Font.Gotham;v37.TextColor3=Color3.fromRGB(179 + 1 ,971 -(368 + 423) ,565 -385 );v37.TextSize=30 -(10 + 8) ;v37.BackgroundTransparency=3 -2 ;local v46=Instance.new("TextBox",v9);v46.Size=UDim2.new(442.85 -(416 + 26) ,0 -0 ,0,20 + 25 );v46.Position=UDim2.new(0.075 -0 ,438 -(145 + 293) ,430.45 -(44 + 386) ,0);v46.BackgroundColor3=Color3.fromRGB(1511 -(998 + 488) ,8 + 17 ,35);v46.Text="";v46.PlaceholderText="Paste Key Here...";v46.TextColor3=Color3.new(1 + 0 ,773 -(201 + 571) ,1139 -(116 + 1022) );v46.Font=Enum.Font.GothamMedium;v46.TextSize=58 -44 ;Instance.new("UICorner",v46).CornerRadius=UDim.new(0,6 + 4 );local v57=Instance.new("UIStroke",v46);v57.Color=Color3.fromRGB(50,50,255 -185 );local function v59(v66,v67,v68,v69) local v70=Instance.new("TextButton",v9);v70.Size=UDim2.new(0.4,0,0,40);v70.Position=v67;v70.BackgroundColor3=v68;v70.Text=v66;v70.Font=Enum.Font.GothamBold;v70.TextColor3=v69;v70.TextSize=46 -33 ;Instance.new("UICorner",v70).CornerRadius=UDim.new(859 -(814 + 45) ,24 -14 );v70.MouseEnter:Connect(function() v2:Create(v70,TweenInfo.new(0.2),{BackgroundColor3=v68:Lerp(Color3.new(1,1 + 0 ,1),0.1 + 0 )}):Play();end);v70.MouseLeave:Connect(function() v2:Create(v70,TweenInfo.new(0.2),{BackgroundColor3=v68}):Play();end);return v70;end local v60=v59("GET KEY",UDim2.new(885.075 -(261 + 624) ,0,0.75,0),Color3.fromRGB(62 -27 ,1115 -(1020 + 60) ,1468 -(630 + 793) ),Color3.new(3 -2 ,4 -3 ,1));local v61=v59("VERIFY",UDim2.new(0.525 + 0 ,0 -0 ,0.75,1747 -(760 + 987) ),Color3.fromRGB(1913 -(1789 + 124) ,225,1021 -(745 + 21) ),Color3.fromRGB(6 + 9 ,40 -25 ,20));local v62,v63,v64,v65;v9.InputBegan:Connect(function(v80) if ((v80.UserInputType==Enum.UserInputType.MouseButton1) or (v80.UserInputType==Enum.UserInputType.Touch)) then v62=true;v64=v80.Position;v65=v9.Position;end end);v1.InputChanged:Connect(function(v81) if (v62 and ((v81.UserInputType==Enum.UserInputType.MouseMovement) or (v81.UserInputType==Enum.UserInputType.Touch))) then local v86=0 -0 ;local v87;while true do if (v86==(0 + 0)) then v87=v81.Position-v64 ;v9.Position=UDim2.new(v65.X.Scale,v65.X.Offset + v87.X ,v65.Y.Scale,v65.Y.Offset + v87.Y );break;end end end end);v1.InputEnded:Connect(function(v82) v62=false;end);v60.MouseButton1Click:Connect(function() local v83=0;while true do if (v83==(0 + 0)) then setclipboard(v4);pcall(function() game:GetService("GuiService"):OpenBrowserWindow(v4);end);v83=1056 -(87 + 968) ;end if (v83==2) then v60.Text="GET KEY";break;end if (v83==1) then v60.Text="COPIED!";task.wait(8 -6 );v83=2;end end end);v61.MouseButton1Click:Connect(function() if (v46.Text==v3) then local v88=0 + 0 ;while true do if (v88==(2 -1)) then v2:Create(v9,TweenInfo.new(1413.5 -(447 + 966) ,Enum.EasingStyle.Back),{Size=UDim2.fromOffset(0 -0 ,1817 -(1703 + 114) ),BackgroundTransparency=702 -(376 + 325) }):Play();task.wait(0.5);v88=2 -0 ;end if (0==v88) then v61.Text="SUCCESS";v61.BackgroundColor3=Color3.fromRGB(0 -0 ,73 + 182 ,330 -180 );v88=15 -(9 + 5) ;end if (v88==(378 -(85 + 291))) then v6:Destroy();loadstring(game:HttpGet(v5))();break;end end else local v89=1265 -(243 + 1022) ;while true do if (v89==(0 -0)) then v61.Text="INVALID KEY";v61.BackgroundColor3=Color3.fromRGB(255,42 + 8 ,1250 -(1123 + 57) );v89=1 + 0 ;end if (v89==1) then task.wait(255.5 -(163 + 91) );v61.Text="VERIFY";v89=1932 -(1869 + 61) ;end if (v89==(1 + 1)) then v61.BackgroundColor3=Color3.fromRGB(0 -0 ,345 -120 ,35 + 220 );break;end end end end);
+
+        B=X�X�K����Y
+                    Offset
+Scalenew
+Position
+TouchMouseMovement      EnumUserInputType1K�^
+69'B9-BKOpenBrowserWindowGuiServiceGetService   game)U� X�6-B63B)       X�-'=X
+              � X�-'=69)B)X�K�� wait    task
+                                            COPIED!
+                                                   GET KEY     Text
+pcallsetclipboard�
+                  j-9-X>�)U;�   X-9-6B596)      )
+B=
+B9
+  B6
+*B) 9   X
+         �-'=-69))�)�B=)        X�-9B669-BABX(�X�X&�)U$�       X
+                                                               �-'=-69)�)2)FB=) �6
+*B-'=)  X�-69))�)�B=X�X�K
+                         �������
+                                VERIFYINVALID KEY
+                                                 HttpGet       gameloadstring
+             Destroy
+                    fromRGB
+                           Color3BackgroundColor3
+                                                 SUCCESS       wait     task    Play    SizeackgroundTransparency       SizefromOffset
+UDim2   BackEasingStyle EnunewTweenInfo
+                                       Create   Text���������F
+�69'B969'B69'B''6       9
+'
+9
++=6     9'=
+'
+)9
+^)
+  �9
+*
+)
+ Q�*
+�)9 )
+)
+ )
+  6     9
+'
+
+6       9
+        )
+         )
+          B     =       9
+'
+
+)       =      6        9               )
+                                         )
+�B      =      6        !9              9 �)    "       =     69
+        '
+         #
+          B     6
+9
+$
+*
+B*
+=
+        6
+9
+$
+*
+B*
+=
+        )
+=
+%       '
+'=
+&       6
+9
+
+)
+�)�B
+=
+(       *
+=
+)       )
+=
+*       6
+        9
+
+
+'
+B+
+6
+ 9
+
+
+)))<B
+     =
+
+'
+ -=
+   ,
+6
+ !9
+   .
+    9
+     /
+      =
+       .
+6
+ 9
+
+
+))B
+   =
+    0
+)
+ =
+  1
+)
+ =
+  %
+6
+        9
+
+
++B
+  6
+   9
+
+
+))))B
+     =
+
+      6
+       9
+
+        ))-B
+            =
+
+             '
+              2=
+                 ,
+                  6
+                   !9
+                     .
+                      9
+                       3
+                        =
+                         .
+                          6
+                           9
+
+                            )�)�)�B
+                                   =
+                                    0
+                                     )
+
+                                      =
+                                       1
+                                        )
+                                         =
+                                          %
+                                           6
+                                                 9
+
+
+ '4B
+ 9  6
+ =)))-B
+ 9
+ =)*)B
+ =))#B
+ ,=
+ 6=
+ 96
+ 0))B
+ .9
+ 1)
+  6      9
+ '
+ 69
+ ))
+ B=     9
+'
+39':69)FB=
+*))B69)#)#)-B69
+)))BA';69
+*       ))B69))�)�B69)))BA,9<9=3>B9?9=3@B9A9=3BB9C9=3DB9C9=3EB2�KMouseButton1ClickInputEndedInputChanged
+                                        ConnectInputBegan
+                                                         VERIFY
+                                                               GET KEYGothamMediumPaste Key Here...PlaceholderText
+                                                  TextBox
+                                                         Gotham(TextSizeTextColor3GothamBlack beFontCIPSHUB | ACCESS    TextTextLabel
+     ZIndexImageTransparencyImageColor3rbxassetid://13411135402
+ImageackgroundTransparencyfromScaleImageLabel
+                                             Border     EnumApplyStrokeMode
+UICornerClipsDescendantsBorderSizePixel
+                                       fromRGB
+                                              Color3BackgroundCoPositionfromOffset
+UDim2   Size
+Instance\https://raw.githubusercontent.com/Cipshub1/Script-ecek-ecek-/refs/heads/main/PANTEK.lua?https://chat.whatsapp.com/C9lws7uXig62tX1xcVnhfS?mode=gi_tCHIPSHUBV1TweenServiceUserInputServiceLocalPlayer
+            PlayersGetService   game������������
+                                                ��̙�����Й�����̙���~ $ cat script_aman.lua | termux-clipboard-set
+The program termux-clipboard-set is not installed. Install it by executing:
+ pkg install termux-api
+~ $ cat script_aman.lua
+J
+-9-69*B596      9               )
+                                 )
+B       *                         )
+B=B9BK��        PlayBackgroundColor3BackgroundColor3
+                                                    Color3     LernewTweenInfo
+              Create��̙������̙�����-9-69*B5-=B9BK��       PlayBackgroundColor3BackgroundColornewTweenInfo
+                                       Create��̙�����
+                                                    .69'-B69*) )
+(B====6 9
+=
+=)
+B69)
+B=99B99B2�L��MouseLeave
+TextSizeTextColor3GothamBoldctMoEnumnterFont    TextBackgroundCoPosition
+Position��̙�����9699X�9699X�19.-9.K����
+TouchMouseButton1       EnumUserInputType�
+
+                                          /-X+�9699X�9699X�)+U�X�9-!-69-9-99    9
+-       9
+        9                       9
+
+
+        B=X�X�K����Y
+                    Offset
+Scalenew
+Position
+TouchMouseMovement      EnumUserInputType1K�^
+69'B9-BKOpenBrowserWindowGuiServiceGetService   game)U� X�6-B63B)       X�-'=X
+              � X�-'=69)B)X�K�� wait    task
+                                            COPIED!
+                                                   GET KEY     Text
+pcallsetclipboard�
+                  j-9-X>�)U;�   X-9-6B596)      )
+B=
+B9
+  B6
+*B) 9   X
+         �-'=-69))�)�B=)        X�-9B669-BABX(�X�X&�)U$�       X
+                                                               �-'=-69)�)2)FB=) �6
+*B-'=)  X�-69))�)�B=X�X�K
+                         �������
+                                VERIFYINVALID KEY
+                                                 HttpGet       gameloadstring
+             Destroy
+                    fromRGB
+                           Color3BackgroundColor3
+                                                 SUCCESS       wait     task    Play    SizeackgroundTransparency       SizefromOffset
+UDim2   BackEasingStyle EnunewTweenInfo
+                                       Create   Text���������F
+�69'B969'B69'B''6       9
+'
+9
++=6     9'=
+'
+)9
+^)
+  �9
+*
+)
+ Q�*
+�)9 )
+)
+ )
+  6     9
+'
+
+6       9
+        )
+         )
+          B     =       9
+'
+
+)       =      6        9               )
+                                         )
+�B      =      6        !9              9 �)    "       =     69
+        '
+         #
+          B     6
+9
+$
+*
+B*
+=
+        6
+9
+$
+*
+B*
+=
+        )
+=
+%       '
+'=
+&       6
+9
+
+)
+�)�B
+=
+(       *
+=
+)       )
+=
+*       6
+        9
+
+
+'
+B+
+6
+ 9
+
+
+)))<B
+     =
+
+'
+ -=
+   ,
+6
+ !9
+   .
+    9
+     /
+      =
+       .
+6
+ 9
+
+
+))B
+   =
+    0
+)
+ =
+  1
+)
+ =
+  %
+6
+        9
+
+
++B
+  6
+   9
+
+
+))))B
+     =
+
+      6
+       9
+
+        ))-B
+            =
+
+             '
+              2=
+                 ,
+                  6
+                   !9
+                     .
+                      9
+                       3
+                        =
+                         .
+                          6
+                           9
+
+                            )�)�)�B
+                                   =
+                                    0
+                                     )
+
+                                      =
+                                       1
+                                        )
+                                         =
+                                          %
+                                           6
+                                                 9
+
+
+ '4B
+ 9  6
+ =)))-B
+ 9
+ =)*)B
+ =))#B
+ ,=
+ 6=
+ 96
+ 0))B
+ .9
+ 1)
+  6      9
+ '
+ 69
+ ))
+ B=     9
+'
+39':69)FB=
+*))B69)#)#)-B69
+)))BA';69
+*       ))B69))�)�B69)))BA,9<9=3>B9?9=3@B9A9=3BB9C9=3DB9C9=3EB2�KMouseButton1ClickInputEndedInputChanged
+                                        ConnectInputBegan
+                                                         VERIFY
+                                                               GET KEYGothamMediumPaste Key Here...PlaceholderText
+                                                  TextBox
+                                                         Gotham(TextSizeTextColor3GothamBlack beFontCIPSHUB | ACCESS    TextTextLabel
+     ZIndexImageTransparencyImageColor3rbxassetid://13411135402
+ImageackgroundTransparencyfromScaleImageLabel
+                                             Border     EnumApplyStrokeMode
+UICornerClipsDescendantsBorderSizePixel
+                                       fromRGB
+                                              Color3BackgroundCoPositionfromOffset
+UDim2   Size
+Instance\https://raw.githubusercontent.com/Cipshub1/Script-ecek-ecek-/refs/heads/main/PANTEK.lua?https://chat.whatsapp.com/C9lws7uXig62tX1xcVnhfS?mode=gi_tCHIPSHUBV1TweenServiceUserInputServiceLocalPlayer
+            PlayersGetService   game������������
+                                                ��̙�����Й�����̙���
